@@ -4,7 +4,7 @@ import click
 @click.command()
 @click.option("--who", default="world", help="Whom to greet.")
 def say_hello(who):
-    """ Simple CLI to great someone! """
+    """ Simple CLI to greet someone! """
     print(f"hello {who}!")
 
 
