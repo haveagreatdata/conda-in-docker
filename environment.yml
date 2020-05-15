@@ -1,7 +1,4 @@
 name: my_project
-channels:
-  - defaults
-  - conda-forge
 dependencies:
   - python=3.7.6
   - click>=7.1
